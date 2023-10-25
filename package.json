@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "bs": "next build; next start",
-    "clean": "rm -rf .next node_modules package-lock.json"
+    "clean": "rm -rf .next node_modules package-lock.json",
+    "docker": "sh buildandrundocker.sh"
   },
   "dependencies": {
     "@azure/storage-blob": "^12.15.0",
